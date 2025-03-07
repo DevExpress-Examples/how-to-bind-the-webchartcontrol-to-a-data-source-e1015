@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="WebChartDataBinding._Default" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="WebChartDataBinding._Default" %>
 
 <%@ Register Assembly="DevExpress.XtraCharts.v24.2.Web, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.XtraCharts.Web" TagPrefix="dxchartsui" %>
@@ -17,7 +17,7 @@
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Populate the Chart" /><br />
         <br />
         <dxchartsui:WebChartControl ID="WebChartControl1" runat="server" Width="700px" Height="400px" >
-
+            
 <FillStyle><OptionsSerializable>
 <cc1:SolidFillOptions></cc1:SolidFillOptions>
 </OptionsSerializable>
@@ -43,11 +43,11 @@
 <cc1:PointOptions></cc1:PointOptions>
 </LegendPointOptionsSerializable>
 </SeriesTemplate>
-
+            
         </dxchartsui:WebChartControl>
         <asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/gsp.mdb"
             SelectCommand="SELECT * FROM [GSP]"></asp:AccessDataSource>
-
+    
     </div>
     </form>
 </body>
