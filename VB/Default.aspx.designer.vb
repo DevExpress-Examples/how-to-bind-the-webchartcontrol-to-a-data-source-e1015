@@ -7,50 +7,53 @@
 '     the code is regenerated.
 ' </auto-generated>
 '------------------------------------------------------------------------------
+
 Namespace WebChartDataBinding
 
-    ''' <summary>
-    ''' _Default class.
-    ''' </summary>
-    ''' <remarks>
-    ''' Auto-generated class.
-    ''' </remarks>
-    Public Partial Class _Default
 
-        ''' <summary>
-        ''' form1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+	''' <summary>
+	''' _Default class.
+	''' </summary>
+	''' <remarks>
+	''' Auto-generated class.
+	''' </remarks>
+	Partial Public Class _Default
+		Inherits System.Web.UI.Page
 
-        ''' <summary>
-        ''' Button1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected Button1 As Global.System.Web.UI.WebControls.Button
+		''' <summary>
+		''' form1 control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected form1 As System.Web.UI.HtmlControls.HtmlForm
 
-        ''' <summary>
-        ''' WebChartControl1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected WebChartControl1 As Global.DevExpress.XtraCharts.Web.WebChartControl
+		''' <summary>
+		''' Button1 control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected Button1 As System.Web.UI.WebControls.Button
 
-        ''' <summary>
-        ''' AccessDataSource1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected AccessDataSource1 As Global.System.Web.UI.WebControls.AccessDataSource
-    End Class
+		''' <summary>
+		''' WebChartControl1 control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected WebChartControl1 As Global.DevExpress.XtraCharts.Web.WebChartControl
+
+		''' <summary>
+		''' AccessDataSource1 control.
+		''' </summary>
+		''' <remarks>
+		''' Auto-generated field.
+		''' To modify move field declaration from designer file to code-behind file.
+		''' </remarks>
+		Protected AccessDataSource1 As System.Web.UI.WebControls.AccessDataSource
+	End Class
 End Namespace
